@@ -147,3 +147,47 @@ li a {
   object-fit: cover;
   border-radius: 8px;
 }
+
+@media screen and (max-width: 980px) {
+  .info-detals {
+    width: auto;
+    height: auto;
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+  }
+
+  .detals-block-child {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .detals-block {
+    width: auto;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .details-child-first {
+    width: 100%;
+    display: block;
+  }
+  .details-child-first div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .about-container {
+    height: 100%;
+  }
+}
