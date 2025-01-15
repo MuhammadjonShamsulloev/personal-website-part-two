@@ -58,7 +58,6 @@ li a {
 .info-detals {
   width: 100%;
   height: 60%;
-  /* background: #d76666; */
   display: flex;
   justify-content: space-between;
 }
@@ -92,4 +91,35 @@ li a {
 .block-intor {
   color: #6b7280;
   max-width: 70%;
+}
+
+@media screen and (max-width: 980px) {
+  .info-detals {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .detals-block {
+    width: auto;
+    height: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    background: #020617;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .info-intro-span-about {
+    max-width: 100%;
+    color: #6b7280;
+  }
+  .info-intro-span-me {
+    align-self: center;
+  }
 }
